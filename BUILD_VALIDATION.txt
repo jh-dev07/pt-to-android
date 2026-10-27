@@ -1,0 +1,9 @@
+Gradle 8.9 Android Gradle Plugin 8.7.3 JDK 17
+Connected assembleDebug: PASS
+Clean Gradle --offline assembleDebug: PASS
+Direct SDK 35.0.0 builder: PASS
+Final APK apksigner verification: v1 PASS, v2 PASS
+APK model bytes match exported ONNX model: PASS
+Device execution: NOT RUN
+Emulator execution: NOT RUN
+Windows rebuild: NOT RUN

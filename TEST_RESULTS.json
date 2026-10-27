@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "onnx_checker": "PASS",
+  "holdout_samples": 900,
+  "synthetic_holdout_accuracy": 1.0,
+  "max_logit_error": 3.814697265625e-06,
+  "fixtures_passed": 3,
+  "desktop_cpu_median_inference_ms": 0.008041999535635114,
+  "desktop_cpu_p95_inference_ms": 0.009148050003204842,
+  "versions": {
+    "torch": "2.5.1+cpu",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.20.1"
+  },
+  "limitations": [
+    "Synthetic data only; no real handwriting evaluation.",
+    "Desktop timings are not Android performance measurements.",
+    "Python outgoing connection helper blocked; no model downloads."
+  ],
+  "android": {
+    "gradle_online_build": "PASS",
+    "gradle_offline_clean_build": "PASS",
+    "direct_sdk_build": "PASS",
+    "apk_signature_verification": "PASS v1 and v2",
+    "device_execution": "NOT RUN",
+    "emulator_execution": "NOT RUN",
+    "abis": [
+      "arm64-v8a",
+      "x86_64"
+    ],
+    "min_android_api": 23,
+    "runtime": "onnxruntime-android 1.20.0",
+    "windows_build": "NOT RUN"
+  },
+  "browser_reference": {
+    "fixture_tests": "PASS 3 of 3",
+    "max_logit_error": 8.86e-07,
+    "full_browser_ui_test": "NOT RUN"
+  }
+}

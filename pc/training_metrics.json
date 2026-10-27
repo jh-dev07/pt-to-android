@@ -1,0 +1,6 @@
+{
+  "synthetic_holdout_accuracy": 1.0,
+  "samples": 900,
+  "seed": 42,
+  "epochs": 90
+}

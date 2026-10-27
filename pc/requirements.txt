@@ -1,0 +1,7 @@
+# Tested conversion environment: CPython 3.12 on Linux x86_64.
+# Torch CPU wheels: https://download.pytorch.org/whl/cpu
+# On other systems select the matching official torch wheel.
+torch==2.5.1
+numpy==1.26.4
+onnx==1.17.0
+onnxruntime==1.20.1
